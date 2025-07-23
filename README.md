@@ -59,8 +59,9 @@ git clone https://github.com/Nikita-7024/H2S_taskManager.git
 cd H2S_taskManager
 cd src
 npm install
-cp .env.example .env  # Fill your Mongo_URI & JWT_SECRET
+cp .env.example
 Mongo_URI : mongodb://localhost:27017/taskmanager
+PORT= 5000
 npm run dev
 
 
