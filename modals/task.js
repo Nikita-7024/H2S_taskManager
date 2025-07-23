@@ -9,4 +9,4 @@ const TaskSchema = new mongoose.Schema({
   subtasks: [SubtaskSchema]
 });
 
-module.exports = mongoose.model('task', TaskSchema)
+module.exports = TaskSchema; 

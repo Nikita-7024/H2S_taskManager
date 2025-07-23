@@ -7,4 +7,4 @@ const SubtaskSchema = new mongoose.Schema({
   isDeleted: { type: Boolean, default: false }
 });
 
-module.exports = mongoose.model('sub_task', SubtaskSchema)
+module.exports = SubtaskSchema;
